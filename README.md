@@ -238,3 +238,7 @@ class NotifikasiLokasi implements Notifikasi {
     }
 }
 ```
+
+### Output Kode Java
+<img width="643" height="331" alt="image" src="https://github.com/user-attachments/assets/5c07db20-19c9-4e1a-b4c5-bafffd99c5b9" />
+
