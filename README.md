@@ -10,10 +10,10 @@ OOP dapat:
 
 ### Class Diagram
 
-
-    classDiagram
-    direction TB
-      class Event {
+```mermaid-example
+	classDiagram
+	direction TB
+    class Event {
 	    #nama : String
 	    #tanggal : String
 	    #lokasi : String
@@ -71,11 +71,13 @@ OOP dapat:
     Event <|-- Konser
     Event <|-- Festival
     Event <|-- FanMeeting
-    Event "--> Tiket : menggunakan
+    Event --> Tiket : menggunakan
     Event --> Notifikasi : menggunakan
     Tiket <|.. TiketVIP
     Tiket <|.. TiketReguler
     Notifikasi <|.. NotifikasiPembayaran
     Notifikasi <|.. NotifikasiLokasi
+```
 
+<img width="8192" height="1849" alt="image" src="https://github.com/user-attachments/assets/fa9cf7d7-2fed-4834-a473-4bbee24f73ac" />
 
